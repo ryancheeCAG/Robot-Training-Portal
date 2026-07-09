@@ -33,7 +33,7 @@
 
   <sc-if value="{{ isSplash }}" hint-placeholder-val="{{ true }}">
     <div style="position:fixed;inset:0;background:#0b1012;z-index:200;display:flex;align-items:center;justify-content:center;overflow:hidden">
-      <video ref="{{ splashRef }}" src="assets/splash.mp4" autoPlay muted playsInline preload="auto" onEnded="{{ finishSplash }}" onError="{{ finishSplash }}" style="width:100%;height:100%;object-fit:cover"></video>
+      <video ref="{{ splashRef }}" src="assets/splash-v2.mp4" autoPlay muted playsInline preload="auto" onEnded="{{ finishSplash }}" onError="{{ finishSplash }}" style="width:100%;height:100%;object-fit:cover"></video>
       <button onClick="{{ finishSplash }}" style="position:absolute;bottom:28px;right:28px;background:rgba(255,255,255,0.12);backdrop-filter:blur(6px);color:#fff;border:1px solid rgba(255,255,255,0.35);border-radius:10px;padding:12px 22px;font-size:14px;font-weight:600;cursor:pointer;min-height:44px">Skip &rarr;</button>
       <div style="position:absolute;top:28px;left:28px;display:flex;align-items:center;gap:12px">
         <img src="assets/cag_logo.png" alt="Changi Airport Group" style="height:32px;width:auto;filter:brightness(0) invert(1);opacity:0.9">
